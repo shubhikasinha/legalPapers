@@ -15,8 +15,8 @@ const Navbar = () => {
         <ul className="flex gap-8 font-semibold">
           <li className="hover:text-gray-300 cursor-pointer">Home</li>
           <li className="hover:text-gray-300 cursor-pointer">Talk to Lawyers</li>
-          <li className="hover:text-gray-300 cursor-pointer">Cart</li>
           <li className="hover:text-gray-300 cursor-pointer">Blogs</li>
+          <li className="hover:text-gray-300 cursor-pointer">Cart</li>
           <li className="hover:text-gray-300 cursor-pointer">Profile</li>
         </ul>
 
@@ -25,9 +25,9 @@ const Navbar = () => {
           <input
             type="text"
             placeholder="Search"
-            className="bg-[#2c1000] text-white px-4 py-1 rounded-full pl-5 pr-10 border border-gray placeholder-white"
+            className="bg-[#3a2017] text-white px-4 py-1 my-2 rounded-full pl-5 pr-10 placeholder-white w-52"
           />
-          <span className="absolute right-3 top-2.5 text-white">🔍</span>
+          <span className="absolute right-3 top-2.5 text-white"></span>
         </div>
       </div>
     </nav>
